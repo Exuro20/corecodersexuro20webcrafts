@@ -18,6 +18,14 @@ section{
     background-color: red;
 }
 
+.navbar-light .navbar-brand{
+    color: #fff !important;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #fff !important;
+}
+
 #about{
     background-color: green;
 }
