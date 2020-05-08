@@ -12,7 +12,61 @@ section{
 }
 
 /***********************************************************
-                        |Home section
+                        nav styles
+***********************************************************/
+nav{
+    height: 100px;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+.navbar-default {
+    background-color: rgba(0,0,0,0) !important;
+    border-color: rgba(0,0,0,0) !important;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff !important;
+    font-weight: 700;
+    font-size: x-large;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff !important;
+    font-weight: 600;
+}
+.navbar-default .navbar-toggle {
+    border-color: rgba(0,0,0,0) !important;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #fff !important;
+}
+
+.navbar-collapse, .navbar-header {
+    padding-top: 10px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: rgba(0,0,0,0)!important;
+}
+
+.sticky {
+    height: 70px;
+    background-color: #000000 !important;
+    -webkit-box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+    box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+}
+@media only screen and (max-width: 990px){
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form{
+        border-color: rgba(0,0,0,0)!important;
+        background-color: #000000 !important;
+        -webkit-box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+        box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+    }
+}
+
+
+/***********************************************************
+                        Home section
 ***********************************************************/
 #home{
     background-color: red;
