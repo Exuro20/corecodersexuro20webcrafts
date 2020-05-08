@@ -29,9 +29,9 @@
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">              
             <ul class="nav navbar-nav navbar-right">
               <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Trends</a></li>
-              <li><a href="#">Support</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#help_section">Trends</a></li>
+              <li><a href="#help">Support</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
@@ -82,28 +82,53 @@
 
     <!-- Help section -->
 
-    <section class="help_section">
+    <section class="help_section" id="help_section">
       <p class="text-center Find_help">Find Help</p>
       <div class="contains" style="padding-left: 20%;">
         <div class="col-lg-3">
-          <div class="card">
+          <div class="cards">
             <p>Medical Help</p>
           </div>
         </div>
 
         <div class="col-lg-3 ">
-          <div class="card">
+          <div class="cards">
             <p>Travel help</p>
           </div>
         </div>
         
         <div class="col-lg-3">
-          <div class="card">
+          <div class="cards">
             <p>Ration Help</p>
           </div>
         </div>
        
     </section>
+    <div class="page-wrapper bg-red p-t-180 p-b-100 font-robo" id="help">
+      <div class="wrapper wrapper--w960">
+          <div class="card card-2">
+              <div class="card-heading"></div>
+              <div class="card-body">
+                  <h2 class="title">Contact us</h2>
+                  <form method="POST">
+                      <div class="input-group">
+                          <input class="input--style-2" type="text" placeholder="Name" name="name">
+                      </div>
+                      <div class="input-group">
+                          <input class="input--style-2" type="Email" placeholder="Email" name="email">
+                      </div>
+                      <div class="input-group">
+                          <input class="input--style-2" type="text" placeholder="Phone no." name="ph">
+                      </div>
+                      
+                          <button class="btn btn--radius btn--green" type="submit">Submit</button>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
+
     <!-- Footer section -->
     <section>
       <div class="footer_section layout_padding">
