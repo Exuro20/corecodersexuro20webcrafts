@@ -1,0 +1,112 @@
+/***********************************************************
+                        Global Styles
+***********************************************************/
+*{
+    padding:0;
+    margin:0;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+}
+
+/***********************************************************
+                        nav styles
+***********************************************************/
+nav{
+    height: 100px;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+.navbar-default {
+    background-color: rgba(0,0,0,0) !important;
+    border-color: rgba(0,0,0,0) !important;}
+
+.navbar-default .navbar-brand {
+    color: #fff !important;
+    font-weight: 700;
+    font-size: x-large;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff !important;
+    font-weight: 600;
+    padding-right: ;
+}
+.navbar-default .navbar-toggle {
+    border-color: rgba(0,0,0,0) !important;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #fff !important;
+}
+
+.navbar-collapse, .navbar-header {
+    padding-top: 10px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: rgba(0,0,0,0)!important;
+}
+
+.sticky {
+    height: 100px;
+    background-color: #000000 !important;
+    -webkit-box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+    box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+}
+@media only screen and (max-width: 990px){
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form{
+        border-color: rgba(0,0,0,0)!important;
+        background-color: #000000 !important;
+        -webkit-box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+        box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+    }
+}
+.navbar-collapse{
+    padding-top: 30px;
+    margin-right: 5%;
+}
+.navbar-header button{
+    margin-top: 30px;
+}
+.nav-logo img{
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50px;
+}
+
+/***********************************************************
+                        Home section
+***********************************************************/
+#home{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url(/assets/images/intro-bg.jpg);
+    background-size: cover;
+}
+
+
+.navbar-light .navbar-brand{
+    color: #fff !important;}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #fff !important;}
+
+#about{
+    background-color: green;
+}
+
+#test{
+    background-color: blue;
+}
+
+#test1{
+    background-color: cadetblue;
+}
