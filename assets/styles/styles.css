@@ -1,3 +1,8 @@
+/*********************** Fonts *******************************/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap');
+
+
 /***********************************************************
                         Global Styles
 ***********************************************************/
@@ -21,7 +26,7 @@ nav{
     transition-duration: 500ms;
 }
 .navbar-default {
-    background-color: rgba(0,0,0,0) !important;
+    background-color: rgba(255, 255, 255, 0) !important;
     border-color: rgba(0,0,0,0) !important;}
 
 .navbar-default .navbar-brand {
@@ -46,15 +51,18 @@ nav{
 }
 
 .navbar-collapse, .navbar-header {
+    
     padding-top: 10px;
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    border-color: rgba(0,0,0,0)!important;
+    border-color: rgba(43, 41, 41, 0.062)!important;
+    padding-left: 5%;
+
 }
 
 .sticky {
     height: 100px;
-    background-color: #000000 !important;
+    background-color: #fff !important;
     -webkit-box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
     box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
 }
@@ -68,6 +76,7 @@ nav{
 .navbar-header button{
     margin-top: 30px;
 }
+
 .nav-logo img{
     height: 60px;
     width: 100%;
@@ -95,8 +104,69 @@ nav{
     color: #fff !important;}
 
 .navbar-light .navbar-nav .nav-link{
-    color: #fff !important;}
+    color: #fff !important;
+}
+.banner_section{
+    padding-top: 15%;
+}
+.banner_title{
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+.banner_title_end{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.banner_text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+.more_bt{
+    margin-top: 2%;
+    background-color: orangered;
+    border-radius: 100px;
+    width: 150px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.more_bt:hover{
+    background-color:rgb(90, 49, 136);
+    border-radius: 100px;
+    text-decoration: none;
+    
+}
+@media only screen and (max-width: 990px){
 
+    .banner_section{
+        padding-top: 40%;
+    }
+    .banner_title{
+        font-size: 40px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+    }
+    .banner_title_end{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+    .banner_text{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+        font: 8px !important;
+    }
+    .banner_img img{
+        padding-top: 20%;
+        padding-left: 10%;
+        width: 80% !important;
+    }
+    
+}
 #about{
     background-color: green;
 }
@@ -110,4 +180,3 @@ nav{
 }
 .wrapper {
     height: 500px !important;
-    }
